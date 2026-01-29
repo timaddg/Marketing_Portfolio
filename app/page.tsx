@@ -84,11 +84,10 @@ export default function Home() {
             </div>
             <div className="bg-white dark:bg-gray-800 rounded-lg shadow-lg p-6 hover:shadow-xl transition-shadow duration-200">
               <h3 className="text-xl font-semibold text-gray-900 dark:text-white mb-3">
-                Project 3
+                MBA Starting Salaries Analysis | Applied Marketing Analytics Project
               </h3>
               <p className="text-gray-600 dark:text-gray-300 mb-4">
-                Project description goes here. This is a sample project card that you can 
-                customize with your own content.
+                Initiated a data-driven study in response to growing challenges faced by MBA graduates in securing employment, aiming to understand what truly influences post-graduation outcomes. Analyzed salary distributions and key variables across prior graduating classes, uncovering that experience-related factors drive compensation more than academic indicators. Evaluated the credibility of MBA-reported salary figures, identifying gaps between published averages and real-world variability that impact candidate perception and program marketing.
               </p>
               <a
                 href="#"

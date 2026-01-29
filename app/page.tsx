@@ -86,8 +86,7 @@ export default function Home() {
           </h2>
           <div className="max-w-2xl mx-auto text-center">
             <p className="text-lg text-gray-700 dark:text-gray-300 mb-8">
-              I&apos;m always open to discussing new projects, creative ideas, or opportunities 
-              to be part of your visions.
+              I&apos;m open to discussing new projects, creative ideas, and making your visions into reality.
             </p>
             <a
               href="mailto:your.email@example.com"

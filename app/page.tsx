@@ -54,7 +54,21 @@ export default function Home() {
             Projects
           </h2>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-            {[1, 2, 3].map((project) => (
+            <div className="bg-white dark:bg-gray-800 rounded-lg shadow-lg p-6 hover:shadow-xl transition-shadow duration-200">
+              <h3 className="text-xl font-semibold text-gray-900 dark:text-white mb-3">
+                Elevated Materials – Market Entry Strategy – Student Consultant
+              </h3>
+              <p className="text-gray-600 dark:text-gray-300 mb-4">
+                Developed a 12–24-month market entry roadmap for a U.S.-based carbon-fiber manufacturer. Used CRM and HubSpot analytics to measure sales velocity and acquisition efficiency. Recommended industry expansion into robotics, UAVs, and medical devices, aligning brand messaging from sustainability to ROI-driven performance.
+              </p>
+              <a
+                href="#"
+                className="text-gray-900 dark:text-white font-medium hover:underline"
+              >
+                Learn more →
+              </a>
+            </div>
+            {[2, 3].map((project) => (
               <div
                 key={project}
                 className="bg-white dark:bg-gray-800 rounded-lg shadow-lg p-6 hover:shadow-xl transition-shadow duration-200"

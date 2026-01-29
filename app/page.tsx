@@ -68,26 +68,35 @@ export default function Home() {
                 Learn more →
               </a>
             </div>
-            {[2, 3].map((project) => (
-              <div
-                key={project}
-                className="bg-white dark:bg-gray-800 rounded-lg shadow-lg p-6 hover:shadow-xl transition-shadow duration-200"
+            <div className="bg-white dark:bg-gray-800 rounded-lg shadow-lg p-6 hover:shadow-xl transition-shadow duration-200">
+              <h3 className="text-xl font-semibold text-gray-900 dark:text-white mb-3">
+                Global University Rankings Analysis
+              </h3>
+              <p className="text-gray-600 dark:text-gray-300 mb-4">
+                Conducted multivariate regression and ANOVA on data from 2,200 universities to identify ranking predictors. Built interactive Tableau dashboards visualizing correlations between research output and faculty quality. Delivered insights guiding strategic investments for global competitiveness.
+              </p>
+              <a
+                href="#"
+                className="text-gray-900 dark:text-white font-medium hover:underline"
               >
-                <h3 className="text-xl font-semibold text-gray-900 dark:text-white mb-3">
-                  Project {project}
-                </h3>
-                <p className="text-gray-600 dark:text-gray-300 mb-4">
-                  Project description goes here. This is a sample project card that you can 
-                  customize with your own content.
-                </p>
-                <a
-                  href="#"
-                  className="text-gray-900 dark:text-white font-medium hover:underline"
-                >
-                  Learn more →
-                </a>
-              </div>
-            ))}
+                Learn more →
+              </a>
+            </div>
+            <div className="bg-white dark:bg-gray-800 rounded-lg shadow-lg p-6 hover:shadow-xl transition-shadow duration-200">
+              <h3 className="text-xl font-semibold text-gray-900 dark:text-white mb-3">
+                Project 3
+              </h3>
+              <p className="text-gray-600 dark:text-gray-300 mb-4">
+                Project description goes here. This is a sample project card that you can 
+                customize with your own content.
+              </p>
+              <a
+                href="#"
+                className="text-gray-900 dark:text-white font-medium hover:underline"
+              >
+                Learn more →
+              </a>
+            </div>
           </div>
         </div>
       </section>

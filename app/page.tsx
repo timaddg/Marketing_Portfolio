@@ -35,14 +35,13 @@ export default function Home() {
           </h2>
           <div className="max-w-3xl mx-auto">
             <p className="text-lg text-gray-700 dark:text-gray-300 mb-4">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor 
-              incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud 
-              exercitation ullamco laboris.
+              I&apos;m passionate about transforming insights into meaningful business growth. My work bridges analytics and strategy, where creativity meets precision turning data into narratives that drive measurable impact.
+            </p>
+            <p className="text-lg text-gray-700 dark:text-gray-300 mb-4">
+              At Thunderbird School of Global Management, I specialize in Digital Transformation, combining analytical skills with a global business perspective. From building Tableau and Power BI dashboards that uncover customer behavior to crafting go-to-market strategies for clients across industries, I thrive on solving problems through data storytelling and innovation.
             </p>
             <p className="text-lg text-gray-700 dark:text-gray-300">
-              Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu 
-              fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in 
-              culpa qui officia deserunt mollit anim id est laborum.
+              Previously, I have worked as a Marketing Analyst at Fiesta Vacations and as a Student Consultant for Elevated Materials, advising on market expansion and brand repositioning.
             </p>
           </div>
         </div>

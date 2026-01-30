@@ -111,7 +111,7 @@ export default function Home() {
               I&apos;m open to discussing new projects, creative ideas, and making your visions into reality.
             </p>
             <a
-              href="mailto:your.email@example.com"
+              href="mailto:nanditha.pendakur@gmail.com"
               className="inline-block bg-gray-900 dark:bg-white text-white dark:text-gray-900 px-8 py-3 rounded-lg font-medium hover:bg-gray-800 dark:hover:bg-gray-100 transition-colors duration-200"
             >
               Send Email

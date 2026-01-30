@@ -20,7 +20,7 @@ const Navbar = () => {
           {/* Logo/Brand */}
           <div className="flex-shrink-0">
             <Link href="/" className="text-xl font-bold text-gray-900 dark:text-white">
-              Portfolio
+              Nanditha Suresh Pendakur
             </Link>
           </div>
 

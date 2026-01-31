@@ -1,6 +1,9 @@
 import type { Metadata } from "next";
+import { Outfit } from "next/font/google";
 import "./globals.css";
 import Navbar from "./components/Navbar";
+
+const outfit = Outfit({ subsets: ["latin"], variable: "--font-outfit" });
 
 export const metadata: Metadata = {
   title: "Portfolio Website",
@@ -13,7 +16,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" suppressHydrationWarning>
+    <html lang="en" suppressHydrationWarning className={outfit.variable}>
       <head>
         <script
           dangerouslySetInnerHTML={{
@@ -32,7 +35,7 @@ export default function RootLayout({
       </head>
       <body>
         <Navbar />
-        <main className="pt-16">
+        <main className="pt-20">
           {children}
         </main>
       </body>

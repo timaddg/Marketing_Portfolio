@@ -5,17 +5,19 @@
 :root {
   --background: #FDF0E6;
   --foreground: #171717;
+  --accent: #D35400;
 }
 
 .dark {
   --background: #0a0a0a;
   --foreground: #ededed;
+  --accent: #E85D04;
 }
 
 body {
   color: var(--foreground);
   background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: var(--font-outfit), system-ui, sans-serif;
 }
 
 @layer utilities {

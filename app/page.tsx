@@ -1,39 +1,45 @@
 import Image from 'next/image';
+import profilePicture from '@/assets/Profile_Picture.png';
 
 export default function Home() {
   return (
     <div className="min-h-screen bg-background dark:bg-gray-900">
       {/* Hero Section */}
-      <section id="home" className="pt-24 pb-32 px-6 sm:px-8 lg:px-12 bg-background dark:bg-gray-900 font-sans">
-        <div className="max-w-7xl mx-auto">
-          <div className="flex flex-col sm:flex-row items-start sm:items-center gap-6 sm:gap-8 mb-8">
-            <Image
-              src="/Profile_Picture.png"
-              alt="Nanditha"
-              width={160}
-              height={160}
-              className="rounded-full object-cover shrink-0 w-32 h-32 sm:w-40 sm:h-40"
-            />
-            <h1 className="text-6xl sm:text-7xl md:text-8xl lg:text-9xl font-bold text-accent dark:text-blue-400 tracking-tight leading-[0.95]">
+      <section id="home" className="min-h-[calc(100vh-5rem)] flex bg-background dark:bg-gray-900 font-sans">
+        <div className="flex flex-col lg:flex-row w-full">
+          {/* Left: Text content */}
+          <div className="flex-1 flex flex-col justify-center px-6 sm:px-8 lg:px-12 py-16 lg:py-24">
+            <h1 className="text-5xl sm:text-6xl md:text-7xl lg:text-8xl xl:text-9xl font-bold text-accent dark:text-blue-400 tracking-tight leading-[0.95] mb-6 lg:mb-8">
               Nanditha
             </h1>
+            <p className="max-w-xl text-lg sm:text-xl text-foreground dark:text-gray-300 leading-relaxed mb-8 lg:mb-10">
+              A marketing analyst and global management graduate student with a curiosity for how ideas scale across markets.
+            </p>
+            <div className="flex flex-wrap gap-4">
+              <a
+                href="#projects"
+                className="inline-flex px-5 py-2.5 rounded-full border-2 border-accent dark:border-blue-400 text-accent dark:text-blue-400 text-sm font-medium hover:bg-accent hover:text-white dark:hover:bg-blue-400 dark:hover:text-gray-900 transition-colors"
+              >
+                View Projects
+              </a>
+              <a
+                href="#contact"
+                className="inline-flex px-5 py-2.5 rounded-full border-2 border-accent dark:border-blue-400 text-accent dark:text-blue-400 text-sm font-medium hover:bg-accent hover:text-white dark:hover:bg-blue-400 dark:hover:text-gray-900 transition-colors"
+              >
+                Get in Touch
+              </a>
+            </div>
           </div>
-          <p className="max-w-2xl text-lg sm:text-xl md:text-2xl text-foreground dark:text-gray-300 leading-relaxed">
-            A marketing analyst and global management graduate student with a curiosity for how ideas scale across markets.
-          </p>
-          <div className="mt-12 flex flex-wrap gap-4">
-            <a
-              href="#projects"
-              className="inline-flex px-5 py-2.5 rounded-full border-2 border-accent dark:border-blue-400 text-accent dark:text-blue-400 text-sm font-medium hover:bg-accent hover:text-white dark:hover:bg-blue-400 dark:hover:text-gray-900 transition-colors"
-            >
-              View Projects
-            </a>
-            <a
-              href="#contact"
-              className="inline-flex px-5 py-2.5 rounded-full border-2 border-accent dark:border-blue-400 text-accent dark:text-blue-400 text-sm font-medium hover:bg-accent hover:text-white dark:hover:bg-blue-400 dark:hover:text-gray-900 transition-colors"
-            >
-              Get in Touch
-            </a>
+          {/* Right: Full-height photo */}
+          <div className="flex-1 relative min-h-[400px] lg:min-h-[calc(100vh-5rem)]">
+            <Image
+              src={profilePicture}
+              alt="Nanditha"
+              fill
+              className="object-cover object-center"
+              priority
+              sizes="(max-width: 1024px) 100vw, 50vw"
+            />
           </div>
         </div>
       </section>

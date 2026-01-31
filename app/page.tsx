@@ -5,10 +5,10 @@ export default function Home() {
       <section id="home" className="py-20 px-4 bg-gray-50 dark:bg-gray-900">
         <div className="max-w-7xl mx-auto text-center">
           <h1 className="text-4xl md:text-6xl font-bold text-gray-900 dark:text-white mb-6">
-            Welcome to My Portfolio
+            Hi I&apos;m Nanditha
           </h1>
           <p className="text-xl md:text-2xl text-gray-600 dark:text-gray-300 mb-8">
-            I create amazing digital experiences
+            A marketing analyst and global management graduate student with a curiosity for how ideas scale across markets.
           </p>
           <div className="flex justify-center gap-4">
             <a

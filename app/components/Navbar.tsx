@@ -49,7 +49,7 @@ const Navbar = () => {
               onClick={toggleTheme}
               className="text-lg font-medium text-accent dark:text-orange-400 hover:opacity-80 transition-opacity cursor-pointer"
             >
-              Nanditha Suresh Pendakur
+              Portfolio
             </button>
           </div>
 

@@ -1,12 +1,23 @@
+import Image from 'next/image';
+
 export default function Home() {
   return (
     <div className="min-h-screen bg-background dark:bg-gray-900">
       {/* Hero Section */}
       <section id="home" className="pt-24 pb-32 px-6 sm:px-8 lg:px-12 bg-background dark:bg-gray-900 font-sans">
         <div className="max-w-7xl mx-auto">
-          <h1 className="text-6xl sm:text-7xl md:text-8xl lg:text-9xl font-bold text-accent dark:text-blue-400 mb-8 tracking-tight leading-[0.95]">
-            Nanditha
-          </h1>
+          <div className="flex flex-col sm:flex-row items-start sm:items-center gap-6 sm:gap-8 mb-8">
+            <Image
+              src="/Profile_Picture.png"
+              alt="Nanditha"
+              width={160}
+              height={160}
+              className="rounded-full object-cover shrink-0 w-32 h-32 sm:w-40 sm:h-40"
+            />
+            <h1 className="text-6xl sm:text-7xl md:text-8xl lg:text-9xl font-bold text-accent dark:text-blue-400 tracking-tight leading-[0.95]">
+              Nanditha
+            </h1>
+          </div>
           <p className="max-w-2xl text-lg sm:text-xl md:text-2xl text-foreground dark:text-gray-300 leading-relaxed">
             A marketing analyst and global management graduate student with a curiosity for how ideas scale across markets.
           </p>

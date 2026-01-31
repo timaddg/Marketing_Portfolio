@@ -32,7 +32,7 @@ export default function Home() {
           {/* Right: Full-height photo */}
           <div className="flex-1 relative min-h-[400px] lg:min-h-[calc(100vh-5rem)]">
             <Image
-              src="/Profile_Picture.png"
+              src="/Profile_Picture.jpeg"
               alt="Nanditha"
               fill
               className="object-cover object-center"
@@ -72,7 +72,7 @@ export default function Home() {
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             <div className="bg-white/80 dark:bg-gray-800 rounded-xl p-6 border border-accent/20 dark:border-gray-700 hover:border-accent/40 dark:hover:border-gray-600 transition-colors">
               <h3 className="text-xl font-semibold text-accent dark:text-blue-400 mb-3">
-                Elevated Materials – Market Entry Strategy – Student Consultant
+                Elevated Materials | Market Entry Strategy | Student Consultant
               </h3>
               <p className="text-foreground dark:text-gray-300 mb-4 leading-relaxed">
                 Developed a 12–24-month market entry roadmap for a U.S.-based carbon-fiber manufacturer. Used CRM and HubSpot analytics to measure sales velocity and acquisition efficiency. Recommended industry expansion into robotics, UAVs, and medical devices, aligning brand messaging from sustainability to ROI-driven performance.

@@ -3,15 +3,15 @@
 @tailwind utilities;
 
 :root {
-  --background: #FDF0E6;
-  --foreground: #171717;
-  --accent: #D35400;
+  --background: #E8F0FF;
+  --foreground: #1e3a5f;
+  --accent: #1d4ed8;
 }
 
 .dark {
   --background: #0a0a0a;
   --foreground: #ededed;
-  --accent: #E85D04;
+  --accent: #60a5fa;
 }
 
 body {

@@ -1,5 +1,4 @@
 import Image from 'next/image';
-import profilePicture from '@/assets/Profile_Picture.png';
 
 export default function Home() {
   return (
@@ -33,7 +32,7 @@ export default function Home() {
           {/* Right: Full-height photo */}
           <div className="flex-1 relative min-h-[400px] lg:min-h-[calc(100vh-5rem)]">
             <Image
-              src={profilePicture}
+              src="/Profile_Picture.png"
               alt="Nanditha"
               fill
               className="object-cover object-center"

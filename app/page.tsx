@@ -1,8 +1,8 @@
 export default function Home() {
   return (
-    <div className="min-h-screen bg-gray-50 dark:bg-gray-900">
+    <div className="min-h-screen bg-background dark:bg-gray-900">
       {/* Hero Section */}
-      <section id="home" className="py-20 px-4 bg-gray-50 dark:bg-gray-900">
+      <section id="home" className="py-20 px-4 bg-background dark:bg-gray-900">
         <div className="max-w-7xl mx-auto text-center">
           <h1 className="text-4xl md:text-6xl font-bold text-gray-900 dark:text-white mb-6">
             Hi I&apos;m Nanditha
@@ -28,7 +28,7 @@ export default function Home() {
       </section>
 
       {/* About Section */}
-      <section id="about" className="py-20 px-4 bg-gray-50 dark:bg-gray-800">
+      <section id="about" className="py-20 px-4 bg-background dark:bg-gray-800">
         <div className="max-w-7xl mx-auto">
           <h2 className="text-3xl md:text-4xl font-bold text-gray-900 dark:text-white mb-8 text-center">
             About Me
@@ -48,7 +48,7 @@ export default function Home() {
       </section>
 
       {/* Projects Section */}
-      <section id="projects" className="py-20 px-4 bg-white dark:bg-gray-900">
+      <section id="projects" className="py-20 px-4 bg-background dark:bg-gray-900">
         <div className="max-w-7xl mx-auto">
           <h2 className="text-3xl md:text-4xl font-bold text-gray-900 dark:text-white mb-12 text-center">
             Projects
@@ -101,7 +101,7 @@ export default function Home() {
       </section>
 
       {/* Contact Section */}
-      <section id="contact" className="py-20 px-4 bg-gray-50 dark:bg-gray-800">
+      <section id="contact" className="py-20 px-4 bg-background dark:bg-gray-800">
         <div className="max-w-7xl mx-auto">
           <h2 className="text-3xl md:text-4xl font-bold text-gray-900 dark:text-white mb-8 text-center">
             Get In Touch

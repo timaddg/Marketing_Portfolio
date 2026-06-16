@@ -69,48 +69,34 @@ export default function Home() {
           <h2 className="text-3xl md:text-4xl font-bold text-accent dark:text-blue-400 mb-12">
             Projects
           </h2>
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-            <div className="bg-white/80 dark:bg-gray-800 rounded-xl p-6 border border-accent/20 dark:border-gray-700 hover:border-accent/40 dark:hover:border-gray-600 transition-colors">
-              <h3 className="text-xl font-semibold text-accent dark:text-blue-400 mb-3">
-                Elevated Materials | Market Entry Strategy | Student Consultant
-              </h3>
-              <p className="text-foreground dark:text-gray-300 mb-4 leading-relaxed">
-                Developed a 12–24-month market entry roadmap for a U.S.-based carbon-fiber manufacturer. Used CRM and HubSpot analytics to measure sales velocity and acquisition efficiency. Recommended industry expansion into robotics, UAVs, and medical devices, aligning brand messaging from sustainability to ROI-driven performance.
-              </p>
-              <a
-                href="#"
-                className="text-accent dark:text-blue-400 font-medium hover:opacity-80 transition-opacity"
-              >
-                Learn more →
-              </a>
-            </div>
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
             <div className="bg-white/80 dark:bg-gray-800 rounded-xl p-6 border border-accent/20 dark:border-gray-700 hover:border-accent/40 dark:hover:border-gray-600 transition-colors">
               <h3 className="text-xl font-semibold text-accent dark:text-blue-400 mb-3">
                 Global University Rankings Analysis
               </h3>
               <p className="text-foreground dark:text-gray-300 mb-4 leading-relaxed">
-                Conducted multivariate regression and ANOVA on data from 2,200 universities to identify ranking predictors. Built interactive Tableau dashboards visualizing correlations between research output and faculty quality. Delivered insights guiding strategic investments for global competitiveness.
+                Conducted multivariate analysis (ANOVA, correlation, regression) using Python and SPSS on a dataset of 2,200+ universities across 50+ countries to identify KPIs influencing global ranking outcomes.
               </p>
-              <a
-                href="#"
-                className="text-accent dark:text-blue-400 font-medium hover:opacity-80 transition-opacity"
-              >
-                Learn more →
-              </a>
+              <p className="text-foreground dark:text-gray-300 mb-4 leading-relaxed">
+                Built interactive Tableau dashboards and SQL-based data workflows to visualize relationships between faculty quality, research productivity, and institutional rankings, then translated findings into strategic policy recommendations.
+              </p>
+              <p className="text-sm text-accent dark:text-blue-400 font-medium">
+                Tech: Python (Pandas, SciPy, Statsmodels), Tableau, SPSS, SQL, Google Sheets
+              </p>
             </div>
             <div className="bg-white/80 dark:bg-gray-800 rounded-xl p-6 border border-accent/20 dark:border-gray-700 hover:border-accent/40 dark:hover:border-gray-600 transition-colors">
               <h3 className="text-xl font-semibold text-accent dark:text-blue-400 mb-3">
-                MBA Starting Salaries Analysis | Applied Marketing Analytics Project
+                MBA Starting Salaries Analysis | Data Analytics
               </h3>
               <p className="text-foreground dark:text-gray-300 mb-4 leading-relaxed">
-                Initiated a data-driven study in response to growing challenges faced by MBA graduates in securing employment, aiming to understand what truly influences post-graduation outcomes. Analyzed salary distributions and key variables across prior graduating classes, uncovering that experience-related factors drive compensation more than academic indicators. Evaluated the credibility of MBA-reported salary figures, identifying gaps between published averages and real-world variability that impact candidate perception and program marketing.
+                Synthesized MBA compensation datasets using Python (Pandas/NumPy) and SQL to model salary variance, identify outliers, and uncover key patterns in post-graduation outcomes.
               </p>
-              <a
-                href="#"
-                className="text-accent dark:text-blue-400 font-medium hover:opacity-80 transition-opacity"
-              >
-                Learn more →
-              </a>
+              <p className="text-foreground dark:text-gray-300 mb-4 leading-relaxed">
+                Engineered multivariate regression models and validated significance with hypothesis testing, while building Excel Power Query data-cleaning workflows that improved dataset integrity and strengthened benchmark reliability analysis.
+              </p>
+              <p className="text-sm text-accent dark:text-blue-400 font-medium">
+                Tech: Python (Pandas, NumPy), SQL, Statsmodels, SPSS, Excel (Power Query), Tableau, Looker Studio
+              </p>
             </div>
           </div>
         </div>
